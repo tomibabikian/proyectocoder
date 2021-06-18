@@ -1,0 +1,121 @@
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navNosotros {
+    flex-direction:row-reverse;
+    padding: 15px ; 
+    font-size: 20px; 
+}
+
+.carrousel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#titulo {
+    font-size: 20px;
+}
+.body-principal {
+    background-image: url(../img/header-hero.jpg);
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.section__principal {
+    color: white;
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+    border: none;
+    padding: 3rem ;
+    margin-top: 19rem;
+    .section__principal--texto {
+        font-weight: 500;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+}
+.logo{
+    max-width: 30%;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+.boton {
+    color: #ffffff;
+    background-color: chocolate;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 5rem;
+    margin:  auto;
+    padding: .5rem 3.5rem;
+   
+}
+
+.btn {
+    grid-row: 2/3;
+    text-align: start;
+    margin-top: 1rem;
+    
+
+}
+
+.footer{
+
+    background-color: black;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center; 
+        
+    
+}
+
+.footer a {
+
+    /* display: flex;
+    align-self: flex-end; */
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px; 
+
+}
+
+.itemFooter {
+    transition: all .7s;
+}
+.itemFooter:hover {
+    transform: translateY( -15px);
+}
+/* Contacto */
+.contacto {
+    width: 75%;
+    border-radius: 30px;
+    padding: 50px;
+    text-align: center;
+    margin: 50px auto;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 0px 500px rgba(8, 8, 8, 0.1);
+    .contacto__titulo {
+        font-size: 50px;
+    
+    }
+    .contacto__item {
+        margin-bottom: 30px;
+    }
+    .img__contacto--form {
+        max-width: 50%;
+        padding-bottom: 10px;
+    }
+
+}
+/* Como ayudar */
+.ayudar__title {
+    display: flex;
+    text-align:end ;
+}
