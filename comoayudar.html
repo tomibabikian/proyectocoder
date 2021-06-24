@@ -17,21 +17,21 @@
     <header class="containernavNosotros-index">
         <div class="row" >
             <div class="col-lg-12 col-md-12 col-xs-12" >
-                <nav  class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark" >
+                <nav  class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark " >
                     <a class="navbar-brand " href="index.html" id="titulo"><img class="logo" src="img/SVG/logo-section-nosotros.svg" alt="logo principal"> We Are The Ligths</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse navNosotros" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                            <a class="nav-link" href="nosotrosNuevo.html">Nosotros <span class="sr-only">(current)</span></a>
+                            <li class="nav-item active itemFooter">
+                            <a class="nav-link navtranslate" href="nosotrosNuevo.html">Nosotros <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="comoayudar.html">Como Ayudar</a>
+                            <li class="nav-item active itemFooter">
+                                <a class="nav-link navtranslate" href="comoayudar.html">Como Ayudar</a>
                             </li>
-                            <li class="nav-item active">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <li class="nav-item active itemFooter">
+                            <a class="nav-link navtranslate" href="contacto.html">Contacto</a>
                             </li>                        
                         </ul>
                     </div>
@@ -40,27 +40,46 @@
           </nav>
     </header>
     
-    <main class="container-fluid ">
+    <main class="container-fluid comoayudar">
         <h1 class="ayudar__title">Como Puedes Ayudarnos</h1>  
-        <div class="row">
+        <div class="row ">
                
-                <div class="col-lg-12 col-md-6 col-xs-3 ">
-                    <a href=""> <img src="img/imagen-boton-donaciones.jpg" class="rounded float-left" alt="..."></a>
-                    <a href=""><img src="img/imagen-boton-voluntarios.jpg" class="rounded float-right" alt="..."></a>
-                </div>  
+            <div class="rounded float-left ayuda__img col-lg-6 col-md-6 col-xs-12 ">
+                <img class="ayudar__img" src="img/imagen-boton-donaciones.jpg" alt="...">
+                <a class="ayudar__botones" href="donaciones.html">Donar</a>
+            </div>
+                
+            <div class="rounded float-right ayuda__img col-lg-6 col-md-6 col-xs-12 ">
+                <img class="ayudar__img" src="img/imagen-boton-voluntarios.jpg"  alt="...">
+                <a class="ayudar__botones" href="voluntarios.html">Ser Voluntario</a>
+            </div>
             
-                <div class="col-lg-6 col-md-3 col-xs-3 ">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsam voluptates perspiciatis, nihil voluptate amet tempore reiciendis nam, modi id maiores ratione 
-                        itaque! Dolorum dolorem culpa quia nihil consequuntur soluta.
-                    </p>
-                </div>
-                <div class="col-lg-6 col-md-3 col-xs-3 ">
-                    <iframe width="420" height="315"
-                        src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
-                    </iframe>
-                </div>
-                  
-        </div>   
+            
+            
+            
+            <!-- <div class="">
+                    <a href=""> <img src="img/imagen-boton-donaciones.jpg" class="rounded float-left ayuda__img col-lg-6 col-md-6 col-xs-3 " alt="..."></a>
+                    <a href=""><img src="img/imagen-boton-voluntarios.jpg" class="rounded float-right ayuda__img col-lg-6 col-md-6 col-xs-3 " alt="..."></a>
+                    <div class="ayudar__botones">
+                        <a href="">Donar</a>
+                        <a href="">Ser voluntario</a>
+                    </div>
+                </div>   -->
+            
+             
+        </div> 
+        <div class=" ayuda__info">
+            <div class="row">
+                <p class="col-lg-6 col-md-6 col-xs-12 ayuda__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsam voluptates perspiciatis, nihil voluptate amet tempore reiciendis nam, modi id maiores ratione 
+                    itaque! Dolorum dolorem culpa quia nihil consequuntur soluta.
+                </p>
+            
+                <iframe class="video col-lg-6 col-md-6 col-xs-12" width="400" height="280"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+                </iframe>
+            </div>
+              
+        </div>  
     </main>
   
     <footer class="footer container-fluid">

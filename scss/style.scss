@@ -9,6 +9,20 @@ body {
     padding: 15px ; 
     font-size: 20px; 
 }
+.navbar__index {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.navtranslate {
+    transition: all .7s; 
+}
+.navtranslate:hover {
+    transform: translateY( -7px);
+}
 
 .carrousel {
     padding-top: 10px;
@@ -40,6 +54,7 @@ body {
 
     }
 }
+
 .logo{
     max-width: 30%;
     padding-left: 5px;
@@ -53,7 +68,7 @@ body {
     border-radius: 5rem;
     margin:  auto;
     padding: .5rem 3.5rem;
-   
+    
 }
 
 .btn {
@@ -63,7 +78,7 @@ body {
     
 
 }
-
+/*footer*/ 
 .footer{
 
     background-color: black;
@@ -94,8 +109,7 @@ body {
 /* Contacto */
 .contacto {
     width: 75%;
-    border-radius: 30px;
-    padding: 50px;
+    border-radius: 30px;    
     text-align: center;
     margin: 50px auto;
     align-items: center;
@@ -115,7 +129,46 @@ body {
 
 }
 /* Como ayudar */
+.comoayudar {
+    width: 85%;
+    border-radius: 30px;    
+    text-align: center;
+    margin: 50px auto;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 0px 500px rgba(8, 8, 8, 0.1);
+}
 .ayudar__title {
-    display: flex;
-    text-align:end ;
+    text-align:center ;
+    padding-top: 20px;
+}
+.botones_ayudar {
+    text-align:justify;
+    text-decoration: none;
+}
+
+.ayuda__info{
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+.video {
+    border-radius: 20px;
+    border: none;
+}
+.ayudar__botones {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: -50px;
+    text-decoration: solid none;
+    text-decoration: none;
+}
+.ayudar__img{
+   max-width: 95%;
+}
+/*voluntarios*/
+.voluntarios__contnedor--parrafo {
+    font-size: 20px;
 }

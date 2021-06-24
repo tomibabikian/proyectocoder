@@ -8,6 +8,20 @@ body {
   padding: 15px;
   font-size: 20px; }
 
+.navbar__index {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem; }
+
+.navtranslate {
+  transition: all .7s; }
+
+.navtranslate:hover {
+  transform: translateY(-7px); }
+
 .carrousel {
   padding-top: 10px;
   padding-bottom: 10px; }
@@ -54,6 +68,7 @@ body {
   text-align: start;
   margin-top: 1rem; }
 
+/*footer*/
 .footer {
   background-color: black;
   padding: 0.8rem;
@@ -78,7 +93,6 @@ body {
 .contacto {
   width: 75%;
   border-radius: 30px;
-  padding: 50px;
   text-align: center;
   margin: 50px auto;
   align-items: center;
@@ -93,6 +107,44 @@ body {
     padding-bottom: 10px; }
 
 /* Como ayudar */
+.comoayudar {
+  width: 85%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 50px auto;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 0px 500px rgba(8, 8, 8, 0.1); }
+
 .ayudar__title {
-  display: flex;
-  text-align: end; }
+  text-align: center;
+  padding-top: 20px; }
+
+.botones_ayudar {
+  text-align: justify;
+  text-decoration: none; }
+
+.ayuda__info {
+  margin-top: 30px;
+  align-items: center;
+  text-align: center;
+  padding: 2rem; }
+
+.video {
+  border-radius: 20px;
+  border: none; }
+
+.ayudar__botones {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: -50px;
+  text-decoration: solid none;
+  text-decoration: none; }
+
+.ayudar__img {
+  max-width: 95%; }
+
+/*voluntarios*/
+.voluntarios__contnedor--parrafo {
+  font-size: 20px; }
