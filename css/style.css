@@ -3,6 +3,9 @@ body {
   background-repeat: no-repeat;
   background-position: center center; }
 
+.sticky {
+  position: static; }
+
 .navNosotros {
   flex-direction: row-reverse;
   padding: 15px;
@@ -65,8 +68,27 @@ body {
 
 .btn {
   grid-row: 2/3;
-  text-align: start;
   margin-top: 1rem; }
+
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 45px;
+  right: 30px;
+  background: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100; }
+
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background-color: #fff; }
 
 /*footer*/
 .footer {
@@ -128,7 +150,13 @@ body {
   margin-top: 30px;
   align-items: center;
   text-align: center;
-  padding: 2rem; }
+  padding: 2rem;
+  color: #fff; }
+
+.ayuda__img__testimonio {
+  background-image: url(../img/PNG/1x/background-socialplus.png);
+  background-repeat: round;
+  background-size: cover; }
 
 .video {
   border-radius: 20px;
@@ -148,3 +176,11 @@ body {
 /*voluntarios*/
 .voluntarios__contnedor--parrafo {
   font-size: 20px; }
+
+/* prueba footer */
+.pruebafooter {
+  background-color: black;
+  padding: 1rem; }
+
+.item__pruebafooter {
+  max-width: 7%; }
